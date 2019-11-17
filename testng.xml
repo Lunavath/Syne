@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.areteans.tests.Module4"/>
+      <class name="com.areteans.tests.Module3"/>
+      <class name="com.areteans.tests.Module5"/>
+      <class name="com.areteans.tests.Module2"/>
+      <class name="com.areteans.tests.Module1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
